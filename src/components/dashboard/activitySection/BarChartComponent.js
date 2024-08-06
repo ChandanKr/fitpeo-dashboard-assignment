@@ -46,7 +46,7 @@ const BarChartComponent = () => {
     <ThemeProvider theme={theme}>
       <div style={{ width: "100%" }}>
         <BarChart
-          xAxis={[{ scaleType: "band", data: data.map((d) => d.name) }]}
+          xAxis={[{ scaleType: "band", data: data.map((d, i) => d.name) }]}
           yAxis={[{}]}
           series={[{ data: data.map((d) => d.value) }]}
           height={230}

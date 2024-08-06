@@ -10,9 +10,9 @@
 
 .circular-progress-bar .note {
   margin-top: 5px;
-  font-size: 8px;
+  font-size: 6px;
   color: #aaa;
-  width: 50px;
+  width: 40px;
 }
 
 @media (max-width: 1024px) {
@@ -21,7 +21,7 @@
   }
 
   .circular-progress-bar h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .circular-progress-bar .note {

@@ -1,13 +1,13 @@
 import React from "react";
 import "./Dashboard.css";
 import { summary, activities, customerFeedback } from "./data";
-import SummarySection from "./SummarySection";
+import SummarySection from "./summarySection/SummarySection";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
-import CircularProgressBar from "./CircularProgressBar";
-import BarChartComponent from "./BarChartComponent";
-import DashboardActivities from "./DashboardActivities";
-import RecentOrders from "./RecentOrders";
-import CustomerFeedback from "./CustomerFeedback";
+import CircularProgressBar from "./summarySection/CircularProgressBar";
+import BarChartComponent from "./activitySection/BarChartComponent";
+import DashboardActivities from "./activitySection/DashboardActivities";
+import RecentOrders from "./ordersAndFeedbackSection/RecentOrders";
+import CustomerFeedback from "./ordersAndFeedbackSection/CustomerFeedback";
 
 const Dashboard = () => {
   return (

@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 .parent {
   display: flex;
   background-color: #141316;
@@ -15,7 +16,6 @@
 
 .hero-section {
   width: 95%;
-  /* min-height: 100vw; */
   margin-left: 5%;
 }
 
